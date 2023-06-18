@@ -52,3 +52,5 @@ Default route without gateway, if not a point-to-point interface, perfocance
 FIRST (config) #ip route 172.16.0.0 255.255.255.192s 0/0/1
 FIRST (config) #ip route 172.16.1.240 255.255.255.240 s 0/0/1
 EIRST (config) #
+
+R1#copy running-config tftp:
